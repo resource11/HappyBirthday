@@ -4,30 +4,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="me.kathleenmcmahon.happybirthday.MainActivity">
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/lollipopbg"/>
+        android:src="@drawable/lollipopbg" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-light"
         android:layout_marginLeft="20dp"
+        android:fontFamily="sans-serif-light"
         android:padding="30dp"
         android:text="Happy Birthday, Android!"
         android:textColor="@android:color/white"
         android:textSize="36sp" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:fontFamily="sans-serif-light"
         android:layout_marginBottom="18dp"
+        android:background="#BBD50000"
+        android:fontFamily="sans-serif-light"
         android:padding="20dp"
         android:text="From, gokatgo"
         android:textColor="@android:color/white"
-        android:textSize="30sp"
-        android:background="#BBD50000"/>
+        android:textSize="30sp" />
 </RelativeLayout>
