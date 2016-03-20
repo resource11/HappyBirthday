@@ -5,18 +5,26 @@
     android:layout_height="match_parent"
     tools:context="me.kathleenmcmahon.happybirthday.MainActivity">
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/androidparty"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Happy Birthday, Android!" />
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:text="Happy Birthday, Android!"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:text="From, gokatgo" />
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        android:text="From, gokatgo"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
 </RelativeLayout>
